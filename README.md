@@ -7,7 +7,7 @@
   - [Setup](#setup)
 
 ## General info
-    The purpose of parallel task scheduling is to minimize total processing time of given tasks by adequately assigning them to available processors. Time limit intended for finding a solution is set to 5 minutes. The input to a program is a swf file, which contains information about tasks, such as time of arrival to a system, processing time and required number of processors. Tasks are unsplittable and the allocation of processors is contiguous. Having such data, program must find near to optimal solution, by first applying greedy algorithm and then mutating an input list and doing local search. This effects in building better solutions as time goes by. The biggest challenge was in upgrading speed of the program, especially because there can be input instances, which vary in processing times of tasks and number of tasks. 
+The purpose of parallel task scheduling is to minimize total processing time of given tasks by adequately assigning them to available processors. Time limit intended for finding a solution is set to 5 minutes. The input to a program is a swf file, which contains information about tasks, such as time of arrival to a system, processing time and required number of processors. Tasks are unsplittable and the allocation of processors is contiguous. Having such data, program must find near to optimal solution, by first applying greedy algorithm and then mutating an input list and doing local search. This effects in building better solutions as time goes by. The biggest challenge was in upgrading speed of the program, especially because there can be input instances, which vary in processing times of tasks and number of tasks. 
 
 ## Technologies
 C++
